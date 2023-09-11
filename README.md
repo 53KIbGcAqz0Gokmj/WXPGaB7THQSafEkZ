@@ -1,4 +1,4 @@
-Happy Customer 
+Happy Customers
 
 Context:
 
