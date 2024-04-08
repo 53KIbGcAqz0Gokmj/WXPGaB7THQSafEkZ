@@ -3,33 +3,24 @@
 # Happy Customers
 
 ## Context:
+Logistics and delivery sector.
 
-We are one of the fastest growing startups in the logistics and delivery domain. We work with several partners and make on-demand delivery to our customers. During the COVID-19 pandemic, we are facing several different challenges and everyday we are trying to address these challenges.
+## Focus:
+Providing on-demand delivery services to customers.
 
-We thrive on making our customers happy. As a growing startup, with a global expansion strategy we know that we need to make our customers happy and the only way to do that is to measure how happy each customer is. If we can predict what makes our customers happy or unhappy, we can then take necessary actions.
+## Objective:
+Predict whether customers are content or dissatisfied based on their responses to specific questions.
 
-Getting feedback from customers is not easy either, but we do our best to get constant feedback from our customers. This is a crucial function to improve our operations across all levels.
+## Data Description:
 
-We recently did a survey to a select customer cohort. You are presented with a subset of this data. We will be using the remaining data as a private test set.
+Attributes X1 to X6 represent answers to various questions.
+Response scale: Values range from 1 to 5, where higher values reflect stronger agreement.
+Target Variable Y: Represents customer happiness level (0 for unhappy, 1 for happy).
 
-Objective:
-
-Predict if a customer is happy or not based on the answers they give to questions asked.
-
-Data Description:
-
-Y = target attribute (Y) with values indicating 0 (unhappy) and 1 (happy) customers
-
-X1 = my order was delivered on time
-
-X2 = contents of my order was as I expected
-
-X3 = I ordered everything I wanted to order
-
-X4 = I paid a good price for my order
-
-X5 = I am satisfied with my courier
-
-X6 = the app makes ordering easy for me
-
-Attributes X1 to X6 indicate the responses for each question and have values from 1 to 5 where the smaller number indicates less and the higher number indicates more towards the answer.
+Attributes:
+    X1: Timely delivery of my order.
+    X2: Satisfaction with product quality.
+    X3: Fulfillment of all desired items in the order.
+    X4: Perceived value for the price paid.
+    X5: Satisfaction with the courier service.
+    X6: User-friendliness of the ordering app.
