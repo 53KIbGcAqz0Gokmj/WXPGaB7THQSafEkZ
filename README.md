@@ -19,14 +19,10 @@ Response scale: Values range from 1 to 5, where higher values reflect stronger a
 Target Variable Y: Represents customer happiness level (0 for unhappy, 1 for happy).
 
 Attributes:
+    
     X1: Timely delivery of my order.
-    
     X2: Satisfaction with product quality.
-    
     X3: Fulfillment of all desired items in the order.
-    
     X4: Perceived value for the price paid.
-    
     X5: Satisfaction with the courier service.
-    
     X6: User-friendliness of the ordering app.
