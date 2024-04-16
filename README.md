@@ -74,3 +74,14 @@ Attributes:
 * X3: I ordered everything I wanted to order and
 * X5: I am satisfied with my courier  
 * These features plays a pivotal role in predictive target variable. These features consistently emerged as a top contributors to the model's accuracy and performance.
+
+# Conclusions:
+
+* We analyzed the "Happy Customers" using different techniques and tuned Adaboost Classifier Model to build a predictive model for the same.
+* The model built can be used to predict if a customer is going to contribute to Revenue generation (by purchasing) or not.
+* We visualized different trees and their confusion matrix to get a better understanding of the model. Easy interpretation is one of the key benefits of a Tuned Adaboost Classifier.  
+* X1: my order was delivered on time, X3: I ordered everything I wanted to order and X5: I am satisfied with my courierare the most important variables in predicting the customers that will contribute to the model's accuracy and performance.
+* We established the importance of hyper-parameters/ pruning to reduce overfitting.
+* We have used balanced class weights so that the model focuses equally on both classes.
+* To minimize the false negatives, the tuned model maximizes the "Recall" values.
+* As per the desire of the Company tuned the models to achieve a 73% accuracy score. We have done the comparative analysis for six models and tuned achieved the high accuracy and recall values. Ensuring accurate predictions is important, and our approach is effective.
